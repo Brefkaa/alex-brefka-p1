@@ -15,12 +15,12 @@ public class PackersScheduleController : ControllerBase
 
     private static readonly string[] Dates = new[]
     {
-        "9/6", "9/15", "9/22", "9/29", "10/6", "10/13", "10/20", "10/27", "11/3", "11/10", "11/17", "11/24", "11/28", "12/5", "12/15", "12/23", "12/29", "1/5"
+        "9/6", "9/15", "9/22", "9/29", "10/6", "10/13", "10/20", "10/27", "11/3", " ", "11/17", "11/24", "11/28", "12/5", "12/15", "12/23", "12/29", "1/5"
     };
 
     private static readonly string[] Times = new[]
     {
-        "7:15 pm", "12:00 pm", "12:00 pm", "12:00 pm", "3:25 pm", "12:00 pm", "12:00 pm", "12:00 pm", "3:25 pm", "NA", "12:00 pm", "3:25 pm", "7:20 pm", "7:15 pm", "7:20 pm", "7:15 pm", "12:00 pm", "TBD"
+        "7:15 pm", "12:00 pm", "12:00 pm", "12:00 pm", "3:25 pm", "12:00 pm", "12:00 pm", "12:00 pm", "3:25 pm", " ", "12:00 pm", "3:25 pm", "7:20 pm", "7:15 pm", "7:20 pm", "7:15 pm", "12:00 pm", "TBD"
     };
 
     private readonly ILogger<PackersScheduleController> _logger;
